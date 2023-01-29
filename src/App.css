@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background: #282828;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  margin-top: 25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 22rem;
+  height: 5.4rem;
+  background: #212121;
+  border: 3px solid #3C3C3C;
+  border-radius: 10px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.weight {
+  width: 48rem;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+select {
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance: none;
+  
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottles, .time {
+  margin-top: 2rem;
+  background-image: url("./drop-down.png");
+  background-repeat: no-repeat;
+  background-position: 18rem;
+  background-size: 2.4rem;
+}
+
+h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.wrap > label {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 2.5rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 5.4rem;
+  border: 3px solid #3C3C3C;
+  border-radius: 10px;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #fff;
+  background: #0085FF;
+  margin: 6.4rem 0 4rem auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.output-txt {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  margin-right: 2rem;
+}
+
+output {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
